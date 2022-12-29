@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Binerkademo';
+  src: url(../font/Binerkademo.otf);
+}
+
+@font-face {
+  font-family: 'Fugue';
+  src: url(../font/fugue_mono.otf);
+}
+
+
+
+
+
+
+main {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(216, 237, 255, 1) 40%
+  );
+}
+
+.black_volna_animation img:nth-child(2):hover {
+    opacity: 0;
+    transition: all 2s  ;
+    
+}
+
+
+
+@keyframes krug {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}  
+}
+
+
+.fivth:hover ~ .first{
+    animation: krug 10s backwards reverse linear;
+}
+
+.fivth:hover ~ .second{
+    animation: krug 10s backwards linear;
+}
+
+.fivth:hover ~ .third{
+    animation: krug 10s backwards reverse linear;
+}
+
+.fivth:hover ~ .fourth{
+    animation: krug 10s backwards  linear;
+}
+.fivth:hover ~ .fivth{
+    animation: krug 10s backwards reverse linear;
+}
+
+.fivth:hover{
+    animation: krug 10s backwards reverse linear;
+}
+
+.cerny_dragon:hover {
+    animation: opac forwards 2s linear;
+}
+
+@keyframes opac {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.obrabotka {
+    z-index: 100;
+}
+
+.obrabotka {
+    animation: down 2s forwards ease-in-out;
+}
+
+@keyframes down {
+    100% {margin-top: 30px;}
+}
+
+
+.obrabotka li:nth-child(2) {
+    animation: rotation 2s ease-in-out forwards;
+}
+
+.obrabotka li:nth-child(4) {
+    animation: rotation 2s ease-in-out forwards ;
+}
+
+.obrabotka li:nth-child(7) {
+    animation: rotation 2s ease-in-out forwards ;
+}
+
+.obrabotka li:nth-child(9) {
+    animation: rotation 2s ease-in-out forwards ;
+}
+
+@keyframes rotation {
+    0% {transform: rotate(180deg); }
+
+    100% {transform: rotate(0deg); top: -4px;}
+}
+
+h1 {
+  font-family: Binerkademo;
+}
+
+
+
+@keyframes row {
+    0% {transform: translate(0,0);}
+    100% {transform: translate(-100%);0}
+ }
+
