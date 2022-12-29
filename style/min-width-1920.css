@@ -93,7 +93,7 @@
 
   .anim_wave {
     display: inline-block;
-    animation: row 10s infinite linear;
+    animation: row 25s infinite linear;
     background-image: url(../img/оранжевая\ волна.png);
     width: 4096px;
     height: 591px;
@@ -101,15 +101,16 @@
   }
 
   .black_volna_animation {
-    width: 1920px;
-    position: absolute;
-    top: 1305px;
+      /* width: 100%; */
+      position: absolute;
+      width: 1920px;
+      top: 1305px;
   }
 
   .black_volna_animation img {
     width: 100%;
     position: absolute;
-    height: 617px;
+
   }
 
   .blue_volny {
@@ -133,11 +134,22 @@
     width: 100%;
   }
 
+  .kamen img:nth-child(3) {
+    display: none;
+  }
+
   .razmetka {
     margin-left: 689px;
     position: relative;
     top: -153px;
   }
+  .kamen4 img:nth-child(3){
+    display: none;
+}
+
+.polirovka2 {
+    display: none;
+}
 
   .edin {
     font-family: Fugue;
@@ -162,9 +174,9 @@
 
   .kamen img:nth-child(2) {
     position: absolute;
-    margin-left: -1177px;
-    width: 1175px;
-    top: -291px;
+    margin-left: -1044px;
+    max-width: 928px;
+    top: -284px;
   }
 
   .kamen2 {
@@ -235,7 +247,7 @@
 
   .blue_animation * {
     position: absolute;
-    width: 918px  ;
+    width: 910px  ;
   }
 
   .fivth {
@@ -273,7 +285,7 @@
 
   .dragon_animation img {
     position: absolute;
-    width: 971px;
+    width: 968px;
   }
 
   .cerny_dragon {

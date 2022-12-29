@@ -96,7 +96,7 @@
 
   .anim_wave {
     display: inline-block;
-    animation: row 10s infinite linear;
+    animation: row 25s infinite linear;
     background-image: url(../img/1440px/оранжевая\ волна\ для\ анимации\ 1440.png);
     width: 3070px;
     height: 443px;
@@ -134,6 +134,17 @@
   .kamen img:nth-child(1) {
     width: 100%;
   }
+
+  .kamen img:nth-child(3) {
+    display: none;
+  }
+  .kamen4 img:nth-child(3){
+    display: none;
+}
+
+.polirovka2 {
+    display: none;
+}
 
   .razmetka {
     margin-left: 507px;

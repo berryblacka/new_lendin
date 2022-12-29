@@ -102,7 +102,7 @@
 
     .anim_wave {
         display: inline-block;
-        animation: row 10s infinite linear;
+        animation: row 25s infinite linear;
         background-image: url(../img/834/Иллюстрация_без_названия\ \(8\)\ 5.png);
         width: 1789px;
         height: 258px;
@@ -171,7 +171,7 @@
     .kamen img:nth-child(2) {
         position: absolute;
         margin-left: -484px;
-        width: 494px;
+        width: 480px;
         top: -50px;
     }
 
@@ -229,6 +229,7 @@
         width: 367px; 
     }
 
+    
     .kamen2>img:first-child {
         width: 100%;
         position: relative;
@@ -301,6 +302,14 @@
         top: -825px;
     }
 
+    .kamen4 img:nth-child(3){
+        display: none;
+    }
+
+    .polirovka2 {
+        display: none;
+    }
+
     .ogranka {
         position: absolute;
         top: 163px;
@@ -362,11 +371,15 @@
     }
 
     .kamni img {
-        width: 839px;
+        width: 834px;
         /* object-fit: cover; */
         /* height: 100%; */
         margin-top: -35px;
     }
+
+    .kamen img:nth-child(3) {
+        display: none;
+      }
 
     .author {
         position: absolute;

@@ -8,7 +8,9 @@
   src: url(../font/fugue_mono.otf);
 }
 
-
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -40,22 +42,22 @@ main {
 }
 
 .fivth:hover ~ .second{
-    animation: krug 10s backwards linear;
+    animation: krug 20s backwards linear;
 }
 
 .fivth:hover ~ .third{
-    animation: krug 10s backwards reverse linear;
+    animation: krug 15s backwards reverse linear;
 }
 
 .fivth:hover ~ .fourth{
-    animation: krug 10s backwards  linear;
+    animation: krug 5s backwards  linear;
 }
 .fivth:hover ~ .fivth{
-    animation: krug 10s backwards reverse linear;
+    animation: krug 30s backwards reverse linear;
 }
 
 .fivth:hover{
-    animation: krug 10s backwards reverse linear;
+    animation: krug 8s backwards reverse linear;
 }
 
 .cerny_dragon:hover {
@@ -73,33 +75,40 @@ main {
 
 .obrabotka {
     animation: down 2s forwards ease-in-out;
+    animation-delay: 2s;
 }
 
 @keyframes down {
+    
     100% {margin-top: 30px;}
 }
 
 
 .obrabotka li:nth-child(2) {
-    animation: rotation 2s ease-in-out forwards;
+    animation: rotation 2s ease-in-out forwards ;
+    animation-delay: 2s;
 }
 
 .obrabotka li:nth-child(4) {
     animation: rotation 2s ease-in-out forwards ;
+    animation-delay: 2s;
 }
 
 .obrabotka li:nth-child(7) {
     animation: rotation 2s ease-in-out forwards ;
+    animation-delay: 2s;
 }
 
 .obrabotka li:nth-child(9) {
     animation: rotation 2s ease-in-out forwards ;
+    animation-delay: 2s;
 }
 
 @keyframes rotation {
-    0% {transform: rotate(180deg); }
+    50% {transform: rotate(180deg); }
+    
 
-    100% {transform: rotate(0deg); top: -4px;}
+    100% {transform: rotate(0deg); top: 5px;}
 }
 
 h1 {

@@ -100,7 +100,7 @@
 
     .anim_wave {
         display: inline-block;
-        animation: row 10s infinite linear;
+        animation: row 25s infinite linear;
         background-image: url(../img/1280px/волна.png);
         width: 2731px;
         height: 394px;
@@ -139,10 +139,22 @@
         width: 100%;
     }
 
+    .kamen img:nth-child(3) {
+        display: none;
+      }
+
     .razmetka {
         margin-left: 507px;
         position: relative;
         top: -96px;
+    }
+
+    .kamen4 img:nth-child(3){
+        display: none;
+    }
+
+    .polirovka2 {
+        display: none;
     }
 
     .edin {
