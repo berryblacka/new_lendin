@@ -46,7 +46,7 @@ main {
 }
 
 .fivth:hover ~ .third{
-    animation: krug 15s backwards reverse linear;
+    animation: krug 7s backwards reverse linear;
 }
 
 .fivth:hover ~ .fourth{
